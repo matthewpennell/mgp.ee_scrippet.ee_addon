@@ -1,6 +1,7 @@
 h1. MGP Scrippet - Format chunks of plain text in a standard screenplay format.
 
 *Author*: "Matthew Pennell":http://www.thewatchmakerproject.com/ - Principal, "29digital":http://www.29digital.com/
+
 Original Scrippetize function by "Nima Yousefi":http://scrippets.org/, based upon the Scrippet concept and design by "John August":http://johnaugust.com/
 
 *GitHub Repository*: "http://github.com/matthewpennell/mgp.ee_scrippet.ee_addon/":http://github.com/matthewpennell/mgp. ee_scrippet.ee_addon/
