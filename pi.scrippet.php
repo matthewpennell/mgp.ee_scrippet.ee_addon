@@ -22,9 +22,9 @@
 
 $plugin_info = array(
 						'pi_name'			=> 'Scrippet',
-						'pi_version'		=> '1.0',
+						'pi_version'		=> '1.1',
 						'pi_author'			=> 'Matthew Pennell',
-						'pi_author_url'		=> 'http://29digital.com/',
+						'pi_author_url'		=> 'http://www.thewatchmakerproject.com/',
 						'pi_description'	=> 'Converts plain text into standard screenplay format',
 						'pi_usage'			=> Scrippet::usage()
 					);
@@ -41,7 +41,7 @@ class Scrippet {
 
 	function Scrippet()
 	{
-		global $TMPL, $FNS;
+		global $TMPL;
 		
 		$width = ( ! $TMPL->fetch_param('width')) ? '400' :  $TMPL->fetch_param('width');
 		$bg_color = ( ! $TMPL->fetch_param('bg_color')) ? '#FFFFCC' :  $TMPL->fetch_param('bg_color');
