@@ -39,25 +39,25 @@ class Scrippet {
     /**  Scrippet
     /** ----------------------------------------*/
 
-    function Scrippet()
-    {
-        global $TMPL, $FNS;
-                        
+	function Scrippet()
+	{
+		global $TMPL, $FNS;
+		
 		$width = ( ! $TMPL->fetch_param('width')) ? '400' :  $TMPL->fetch_param('width');
 		$bg_color = ( ! $TMPL->fetch_param('bg_color')) ? '#FFFFCC' :  $TMPL->fetch_param('bg_color');
 		$text_color = ( ! $TMPL->fetch_param('text_color')) ? '#000000' :  $TMPL->fetch_param('text_color');
 		$alignment = ( ! $TMPL->fetch_param('alignment')) ? 'Left' :  $TMPL->fetch_param('alignment');
 		
-       	$str = $TMPL->tagdata;
-       	
-       	$style = 'width: ' . $width . 'px; background-color: ' . $bg_color . '; color: ' . $text_color . ';';
-       	if ($alignment == 'center')
-       	{
-       		$style .= ' margin: 0 auto 16px auto !important;';
-       	}
-       	
- 		$this->return_data = '<div class="scrippet" style="' . $style . '">' . $this->scrippetize($str) . '</div>';
-    }
+		$str = $TMPL->tagdata;
+		
+		$style = 'width: ' . $width . 'px; background-color: ' . $bg_color . '; color: ' . $text_color . ';';
+		if ($alignment == 'center')
+		{
+			$style .= ' margin: 0 auto 16px auto !important;';
+		}
+		       	
+		$this->return_data = '<div class="scrippet" style="' . $style . '">' . $this->scrippetize($str) . '</div>';
+	}
     /* END */
     
 	/*
