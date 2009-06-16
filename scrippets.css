@@ -13,6 +13,7 @@ div.scrippet {
 	border: 1px solid #333;
 	padding: 5px 14px 15px 14px !important;
 	margin-bottom: 16px !important;
+	*margin-bottom: 0px !important;
 	margin-left: 20px !important;
 }
 
