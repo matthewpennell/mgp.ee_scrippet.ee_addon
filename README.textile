@@ -10,6 +10,10 @@ h2. Documentation
 
 An explanation and installation instructions can be found at "http://www.thewatchmakerproject.com/blog/new-expressionengine-plugin-scrippet/":http://www.thewatchmakerproject.com/blog/new-expressionengine-plugin-scrippet/
 
+h3. Changelog
+
+*1st July 2009:* Fix character name bug as per Wordpress plugin v1.4.
+
 h2. License
 
 MGP Scrippet is currently available for use in all personal or commercial projects under MIT License.
